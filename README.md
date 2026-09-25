@@ -56,7 +56,10 @@ POST\PUT users schema:
 }
 ```
 Additional information:
-- The POST /token request uses Basic Auth, the remaining endpoints require Bearer token authentication.
+- The POST /token request uses Basic Auth
+	- Username: Admin123
+	- Password: pw0rD!123456
+- Other endpoints require Bearer token authentication.
 - There is no data layer, any changes made to entities are not retained.
 
 Please create a Postman collection containing tests to cover each API and a supporting environment file.
